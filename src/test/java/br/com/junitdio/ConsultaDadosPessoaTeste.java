@@ -42,7 +42,7 @@ public class ConsultaDadosPessoaTeste {
 	
 	//Indica que será executado esse trecho de código uma única vez durante a execução da classe depois de todo resto.
 	@AfterAll
-	static void FilizarConexao() {
+	static void FinalizarConexao() {
 		DataBase.finalizarConexao();
 		System.out.println("Rodou finaliza configuração");
 	}

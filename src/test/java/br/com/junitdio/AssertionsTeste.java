@@ -16,7 +16,7 @@ public class AssertionsTeste {
 		int[] SegundoLancamentos = {-1, 5, 2, 10};
 		int[] terceiroLancamentos = {10, 20, 40, 50};
 		
-		//Compra se os array são exatamente iguais
+		//Compara se os array são exatamente iguais
 		Assertions.assertArrayEquals(primeiroLancamentos, terceiroLancamentos);
 
 		//verifica se os parametros são diferentes
